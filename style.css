@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.login {
+    background-color: rgb(234, 239, 232);
+    padding: 55px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(3, 194, 45, 0.826);
+    width: 450px;
+}
+
+.loginlogo header {
+    text-align: left;  
+    color: rgb(18, 126, 18);
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.login .inputbox input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputbox input:hover {
+    background-color: rgb(218, 215, 215);
+}
+
+.inputbox input:focus-within{
+    box-shadow: 0 0 2px black;
+}
+
+/*sign in*/
+.login .submit {
+    text-align: center;
+}
+
+.login .submit input {
+    background-color: rgb(13, 148, 83);
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.submit input:hover {
+    background-color: rgb(55, 155, 150);
+}
+
+.submit input:focus-within{
+    box-shadow: 0 0 2px black;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+ /*sign up*/
+.link {
+    font-size: 14px;
+    text-align: center;
+}
+
+.image img {
+    width: 500px;
+    height: 440px;
+    background-color: rgb(234, 239, 232);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(3, 194, 45, 0.826);
+}
